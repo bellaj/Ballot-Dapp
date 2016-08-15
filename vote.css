@@ -1,0 +1,33 @@
+ 
+.content {
+    background: #fefefe;
+     
+    max-width: 600px;
+    margin: 90px auto;
+    padding: 32px;
+    border-radius: 1px;
+    box-shadow: rgba(0,0,0,0.2) 0 2px 8px;
+}
+
+#yes { margin-top : 10px;
+    background: #28a1e8;
+    width: 100px;
+     padding: 10px;
+ 	 color:white;
+	 border : 1px solid gray;
+ }
+ #info { 
+ margin-left:10px;
+ 
+ }
+  #deleg { 
+ margin-left:10px;
+ 
+ }
+ 
+ 
+ 
+input {
+	
+	left: 100px;
+}

@@ -1,0 +1,43 @@
+<html>
+<head>
+  <!-- updated 25/10/14 -->
+  <title>Voting Dapp</title>
+  
+    <script type="text/javascript" src="web3.min.js"></script>
+     <link rel="stylesheet" href="vote.css">
+
+  <script src="functions.js"></script>
+
+</head>
+
+<body onload="settings_()">
+
+<div class="content">
+
+<label> Chair person :</label> <label id="chairpersson"></label><br><br>
+<label>choose the proposal to vote on : </label>
+<select id="proposals" ><option value="0">proposal 1</option><option value="1">proposal 2</option><option value="3">proposal 3</option></select> 
+<button id="yes" onclick="vote_()"> Vote</button>
+ 
+<br>
+<br>
+<label> Voter's address :</label><input id="address_voter"><button  onclick="get_voter()" id="info">infos</button>
+<br><br>
+<label> Delegate to address :</label><input id="delegate_voter"><button  onclick="delegate_voter()" id="deleg">Delegate</button>
+<br>
+<br>
+<br>
+<label> vote detail :</label> <label id="voter_detail"></label><br><br>
+<br>
+<br>
+<button id="result" onclick="result_()">voting result</button>  
+   <br>  
+   <!--h5>voted: <strong id="vote_result_label"></strong></h5-->
+   <br>
+   <!--h5>Message: <strong id="Message_label"></strong></h5-->
+   <h5>winning Proposal: <strong id="winningProposal"></strong></h5>
+
+</div>
+
+</body>
+</html>
