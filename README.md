@@ -1,4 +1,4 @@
-# Dapp_app
+# Ballot Dapp 
 
 Ballot dapp application written in Solidity. 
 this exemple intends to help developers who starts in building Ethereum Dapps.
